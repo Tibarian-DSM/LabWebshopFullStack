@@ -4,9 +4,9 @@ Application full-stack de boutique en ligne développée avec :
  
   Frontend : Angular 16
 
-[ Fonctionnalités principales]
+💻[ Fonctionnalités principales]
 
- [Backend]
+ ✏️[Backend]
  
    Authentification par JWT (login, inscription, profil)
    
@@ -20,9 +20,9 @@ Application full-stack de boutique en ligne développée avec :
    
    Vérification CAPTCHA Google
  
- Limitation d’accès par IP (Rate Limiting)
+  Limitation d’accès par IP (Rate Limiting)
 
- [Frontend (Angular)]
+ 🖼️[Frontend (Angular)]
  
    Interface responsive utilisateur
    
@@ -32,9 +32,9 @@ Application full-stack de boutique en ligne développée avec :
    
    Appels API avec gestion des tokens JWT
 
-[ENDPOINTS DISPONIBLE]
+🎯[ENDPOINTS DISPONIBLE]
 
-   [AUTH]
+   🪪[AUTH]
    
    /api/auth/register --> Créer un utilisateur
    
@@ -50,7 +50,7 @@ Application full-stack de boutique en ligne développée avec :
    
    /api/auth/{id} --> Mise à jour du profil utilisateur
   
-   [PRODUCTS]
+   🎁[PRODUCTS]
    
    /api/product/AddProduct --> Ajout d’un produit
    
@@ -69,7 +69,7 @@ Application full-stack de boutique en ligne développée avec :
    
    /api/product/Delete/{id} --> Supprime un produit
 
- [ORDER]
+🛒 [ORDER]
  
  /api/order/CreateOrder --> Crée une commande
  
@@ -88,18 +88,18 @@ Application full-stack de boutique en ligne développée avec :
  
  /api/order/UpdateStatus/{id} --> Mise à jour du statut (admin)
  
- [CAPTCHA]
+ 🤖[CAPTCHA]
  
  /api/captcha/verify --> Vérifie le token Google Captcha
 
 
-[SWAGGER & JWT]
+🔑[SWAGGER & JWT]
 
 Swagger est activé en mode development  --> URL : https://localhost:5001/swagger
 
 Authentification JWT : utiliser le bouton “Authorize” en haut pour fournir un Bearer Token
 
-[PROGRAMME PRINCIPAL]
+💾[PROGRAMME PRINCIPAL]
 
 Authentification JWT avec validation des rôles
 
